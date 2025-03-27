@@ -13,8 +13,10 @@ hiltAndroid = "2.51.1"
 hiltNavigationCompose = "1.2.0"
 roomRuntime = "2.6.1"
 ksp = "2.0.21-1.0.27"
+mockk = "1.13.7"
 
 [libraries]
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
