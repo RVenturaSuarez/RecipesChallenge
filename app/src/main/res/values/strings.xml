@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">RecipesChallenge</string>
+    <string name="topAppBar_recipes_title">Recipes</string>
+
+    <!-- Instructions Dialog -->
+    <string name="instructions_dialog_title">Instructions</string>
+    <string name="close_info_recipe_btn">Close info recipe</string>
+
+    <!-- Content description -->
+    <string name="content_description_icon_recipe">Icon recipe</string>
 </resources>
