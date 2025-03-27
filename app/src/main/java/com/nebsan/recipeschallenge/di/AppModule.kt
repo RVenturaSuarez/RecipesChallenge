@@ -1,5 +1,6 @@
 package com.nebsan.recipeschallenge.di
 
+import com.nebsan.recipeschallenge.data.local.dao.RecipeDao
 import com.nebsan.recipeschallenge.data.remote.RecipesApi
 import com.nebsan.recipeschallenge.data.repository.RecipesRepositoryImpl
 import com.nebsan.recipeschallenge.domain.repository.RecipesRepository
@@ -27,7 +28,7 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideRecipesRepository(recipesApi: RecipesApi) : RecipesRepository {
-        return RecipesRepositoryImpl(recipesApi)
+    fun provideRecipesRepository(recipeDao: RecipeDao, recipesApi: RecipesApi) : RecipesRepository {
+        return RecipesRepositoryImpl(recipeDao, recipesApi)
     }
 }
