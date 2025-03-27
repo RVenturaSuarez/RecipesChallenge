@@ -1,6 +1,8 @@
 package com.nebsan.recipeschallenge.di
 
 import com.nebsan.recipeschallenge.data.remote.RecipesApi
+import com.nebsan.recipeschallenge.data.repository.RecipesRepositoryImpl
+import com.nebsan.recipeschallenge.domain.repository.RecipesRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,5 +23,11 @@ object AppModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(RecipesApi::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun provideRecipesRepository(recipesApi: RecipesApi) : RecipesRepository {
+        return RecipesRepositoryImpl(recipesApi)
     }
 }

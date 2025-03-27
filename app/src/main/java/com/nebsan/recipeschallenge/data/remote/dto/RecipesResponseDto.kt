@@ -1,6 +1,6 @@
 package com.nebsan.recipeschallenge.data.remote.dto
 
-data class RecipesDto(
+data class RecipesResponseDto(
     val recipes: List<RecipeDto>
 )
 
