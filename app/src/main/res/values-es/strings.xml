@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecipesChallenge</string>
+    <string name="topAppBar_recipes_title">Recetas</string>
+
+    <!-- Instructions Dialog -->
+    <string name="instructions_dialog_title">Instrucciones</string>
+    <string name="close_info_recipe_btn">Cerrar info receta</string>
+
+    <!-- Error Info -->
+    <string name="message_no_data_found">Información no encontrada</string>
+    <string name="reload_data_btn">Recargar información</string>
+
+    <!-- Content description -->
+    <string name="content_description_icon_recipe">Incono receta</string>
+    <string name="content_description_icon_error_data_found">Icono error al cargar información</string>
+    <string name="content_description_icon_reload_data">Icono recargar información</string>
+
+</resources>

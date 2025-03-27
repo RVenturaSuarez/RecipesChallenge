@@ -46,7 +46,11 @@ private fun IconRecipeInstructionsDialog(
     recipeName: String,
     modifier: Modifier = Modifier,
 ) {
-    Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = modifier) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        modifier = modifier
+    ) {
         Icon(
             painter = painterResource(id = R.drawable.ic_recipe),
             contentDescription = stringResource(
