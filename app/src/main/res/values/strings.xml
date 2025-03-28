@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">RecipesChallenge</string>
+    <string name="topAppBar_recipes_title">Recipes</string>
+
+    <!-- Instructions Dialog -->
+    <string name="instructions_dialog_title">Instructions</string>
+    <string name="close_info_recipe_btn">Close info recipe</string>
+
+    <!-- Error Info -->
+    <string name="message_no_data_found">No data found</string>
+    <string name="reload_data_btn">Reload data</string>
+
+    <!-- Content description -->
+    <string name="content_description_icon_recipe">Icon recipe</string>
+    <string name="content_description_icon_error_data_found">Icon error data found</string>
+    <string name="content_description_icon_reload_data">Icon reload data</string>
 </resources>
