@@ -97,3 +97,5 @@ Este proyecto incluye un flujo de trabajo de GitHub Actions para pruebas automat
 
 
 ## 📸 Screenshots
+
+![Demo](assets/recipesScreen.gif)
