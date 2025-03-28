@@ -96,6 +96,6 @@ Para lanzar los Unit Test, ejecuta en el terminal:
 Este proyecto incluye un flujo de trabajo de GitHub Actions para pruebas automatizadas. Ejecuta las pruebas en cada push o pull request a las ramas `master` y `develop`
 
 
-## 📸 Screenshots
+## 📸 GIF [Demostración pantalla]
 
 ![Demo](assets/recipesScreen.gif)
